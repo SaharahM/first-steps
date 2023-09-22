@@ -1,0 +1,52 @@
+* {
+    font-family: 'Croissant One', cursive;
+    font-family: 'Skranji', cursive;
+}
+
+h1 {
+    color: #044f04;
+    background-color: #92c261;
+    padding: 30px;
+    border: thick double #044f04;
+    margin: 0;
+    text-align: center;
+}
+
+#nav {
+    width: 100%;
+    height: 90px;
+    white-space: nowrap;
+    overflow: auto;
+}
+
+.nav {
+    text-align: right;
+    display: inline-block;
+    width: 21%;
+    height: 50%;
+}
+
+.titles {
+    color: #044f04;
+}
+
+#Welcome,
+#NationalP,
+#Locations {
+    text-align: center;
+}
+
+.paragraphs {
+    color: #8fc78f;
+    background-color: #04240f;
+}
+
+#p1 {
+    padding: 2%;
+}
+
+#p2,
+#p3,
+#p4 {
+    padding: 2%;
+}

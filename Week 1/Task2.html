@@ -1,0 +1,75 @@
+<!-- Create some example forms. Your forms must include the an example of each of the following input types:
+
+Radio buttons
+
+Checkboxes
+
+File Upload Input
+
+A Textarea
+
+A Dropdown List
+
+Once you have completed the challenge, familiarise yourself with "fieldset" and "legend" elements, to see how they work within a form. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Part 2</title>
+</head>
+
+<body>
+    <form action="./confirmation.html">
+        <fieldset>
+            <legend>
+                <h1>Favourites</h1>
+            </legend>
+            <h2>Colour</h2>
+            <p>Choose your favourite colour from the following options:</p>
+            <input type="radio" id="red" name="fav_colour">
+            <label for="red">Red</label>
+            <br>
+            <input type="radio" id="blue" name="fav_colour">
+            <label for="blue">Blue</label>
+            <br>
+            <input type="radio" id="green" name="fav_colour">
+            <label for="green">Green</label>
+            <br>
+            <h2>Travel</h2>
+            <p>What modes of travel do you use? Select all that apply:</p>
+            <input type="checkbox" id="Car" name="vehicle1" value="Car">
+            <label for="Car">Car</label>
+            <br>
+            <input type="checkbox" id="Bus" name="vehicle2" value="Bus">
+            <label for="Bus">Bus</label>
+            <br>
+            <input type="checkbox" id="Bicycle" name="vehicle3" value="Bicycle">
+            <label for="Bicycle">Bicycle</label>
+            <br>
+            <br>
+            <label for="myfile">Select a picture of your favourite mode of travel:
+                <input type="file" id="myfile" name="myfile" required>
+            </label>
+            <br>
+            <h2>Hobbies</h2>
+            <p>In a few sentences, describe a hobby that you enjoy and why in the box below.</p>
+            <textarea name="hobbies" id="hobbies" cols="30" rows="10" placeholder="I enjoy.....because....."></textarea>
+            <br>
+            <h2>Music</h2>
+            <label for="music"> </label>
+            <p>Select the music genre you prefer below:</p>
+            <select name="music" id="music">
+                <option value="Pop">Pop</option>
+                <option value="Rock">Rock</option>
+                <option value="Jazz">Jazz</option>
+                <option value="Alternative">Alternative</option>
+                <option value="Other">Other</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+
+</html>
