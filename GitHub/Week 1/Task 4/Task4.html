@@ -1,0 +1,138 @@
+<!-- Add some CSS styling to either an existing HTML webpage you have worked on, or a new HTML file.
+
+You must correctly create and link a CSS Stylesheet to your HTML file and apply some CSS Rules to your webpage.
+
+Your CSS file must include examples of:
+
+- An element selector
+
+- A class selector
+
+- An id selector
+
+- An imported font
+
+Alongside use of the following CSS Properties:
+
+margin, padding, border, color, background-color and font-family. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon_io/favicon-16x16.png">
+    <link rel="stylesheet" href="./Task4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Skranji:wght@400;700&display=swap"
+        rel="stylesheet">
+    <title>UK National Parks</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="h1"> UK National Parks</h1>
+        <nav id="nav">
+            <a id="home" class=nav href="#h1">
+                <h2>Home</h2>
+            </a>
+            <a class=nav href="#Welcome">
+                <h2>Welcome!</h2>
+            </a>
+            <a class=nav href="#NationalP">
+                <h2>National Parks</h2>
+            </a>
+            <a class=nav href="#Locations">
+                <h2>Locations</h2>
+            </a>
+        </nav>
+        <img src="https://images.pexels.com/photos/5473050/pexels-photo-5473050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Famous footbridge over calm river in summer garden">
+    </header>
+    <br>
+    <br>
+    <main>
+        <div>
+            <h2 id="Welcome" class="titles"> <u>Welcome!</u> </h2>
+            <p id="p1" class="paragraphs">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatum
+                asperiores nobis cumque, nemo
+                perferendis unde vel tempora ipsum odio consequuntur culpa, deleniti neque. Adipisci laudantium
+                reprehenderit debitis tenetur placeat!
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, voluptatum
+                asperiores nobis cumque, nemo
+                perferendis unde vel tempora ipsum odio consequuntur culpa, deleniti neque. Adipisci laudantium
+                reprehenderit debitis tenetur placeat!
+            </p>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/p9em6L0mcrk?si=UoFejZd1NqbCh_we"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <br>
+        <br>
+        <div>
+            <h2 id="NationalP" class="titles"> <u>National Parks</u> </h2>
+            <ul>
+                <li> <a id="NationalP1" class="parks" href="">
+                        <h3>National 1</h3>
+                    </a>
+                    <p id="p2" class="paragraphs">Lorem ipsum dolor sit amet <strong>National 1</strong> consectetur
+                        adipisicing elit.
+                        Reprehenderit
+                        adipisci quia delectus iusto
+                        libero possimus reiciendis quidem velit ea dicta repellendus, nemo totam praesentium? Ab
+                        aliquid
+                        dicta
+                        praesentium magnam natus?
+                    </p>
+                </li>
+                <li>
+                    <a id="NationalP2" class="parks" href="">
+                        <h3>National 2</h3>
+                    </a>
+                    <p id="p3" class="paragraphs"> <strong>National 2</strong> Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit.
+                        Voluptatibus,
+                        in
+                        totam consequatur praesentium quo unde natus ipsam rem distinctio id aut minus! Unde et,
+                        dolor
+                        voluptates ut possimus veritatis
+                        nobis!
+                    </p>
+                </li>
+                <li>
+                    <a id="NationalP3" class="parks" href="">
+                        <h3>National 3</h3>
+                    </a>
+                    <p id="p4" class="paragraphs">Lorem ipsum dolor sit amet consectetur, <strong>National
+                            3</strong> adipisicing elit. Iste
+                        nesciunt
+                        labore perspiciatis! Officia quidem vitae voluptatem dolore eveniet aspernatur magni
+                        voluptate
+                        doloremque nemo? Distinctio fugit
+                        optio, labore unde aliquam dolores.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <h2 id="Locations" class="titles"> <u>Locations</u> </h2>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1l9T5VlPWTf49DnDsbrN-MYCwg1M&hl=en_US&ehbc=2E312F"
+            width="640" height="480"></iframe>
+
+        <a href="#h1">
+            <h3>Back to the Top</h3>
+        </a>
+    </footer>
+</body>
+
+</html>
